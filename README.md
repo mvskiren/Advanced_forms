@@ -8,3 +8,5 @@ Key observations:
 * Make sure you always add label to the input element and attach for with input id
 * Define width for label element for better alignment 
 * Radio-Buttons - Using fieldset with legened while using radio buttons since they works in groups and name attribute should be same for all buttons.
+* Accept-characterset- [UTF_8,ISO]
+* Always select an encoding type for your form that can handle all the character that you inteneded user to write -(theta ?)
