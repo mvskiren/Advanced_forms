@@ -1,0 +1,111 @@
+:root {
+  --main-color: white;
+  --basic-fonts: "aria";
+  --widget-width: 250px;
+  --label-width: 250px;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+body {
+  display: flex;
+  color: grey;
+  flex-direction: column;
+  align-items: center;
+  font-family: sans-serif;
+}
+.profile-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  color: grey;
+  width: 600px;
+  height: 150px;
+  text-overflow: ellipsis;
+  background-color: lightyellow;
+  padding: 15px;
+  margin: 40px;
+}
+.profile-header > h5 {
+  font-style: italic;
+}
+.profile-form {
+  padding: 20px;
+  width: 600px;
+  background-color: lightsteelblue;
+}
+.form-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+.form-row input[type="text"],
+.form-row input[type="email"] {
+  border-radius: 10px;
+  font-size: 10px;
+  border: 2px solid grey;
+  background-color: rgba(255, 255, 255);
+  padding: 7px;
+  width: var(--widget-width);
+  /* height: 30px; */
+}
+.form-row input[type="email"]:invalid {
+  border: 1.5px solid red;
+  box-shadow: none;
+}
+.form-row label {
+  margin-bottom: 20px;
+  padding-right: 10px;
+  text-align: right;
+  margin-top: 5px;
+  width: 200px;
+}
+/* ****************** RADIO BUTTON  ************** */
+.radio-form {
+  border: none;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.radio-form legend {
+  float: left;
+  padding-right: 10px;
+  width: 200px;
+  text-align: right;
+}
+/* ****************** DROPDOWN MENU  ************** */
+.form-dropdown {
+  width: 250px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+/* ****************** TEXTAREA   ************** */
+.form-row textarea {
+  border: 1px solid #d6d9dc;
+  border-radius: 5px;
+  min-height: 100px;
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 20px;
+}
+/* ****************** CHECKBOX   ************** */
+.checkbox-label {
+  margin-left: 150px;
+  width: auto;
+  box-shadow: none;
+}
+button {
+  margin-left: 250px;
+  padding: 5px;
+  width: 100px;
+  color: white;
+  outline: none;
+  border-color: red;
+  border-style: solid;
+  background-color: red;
+}

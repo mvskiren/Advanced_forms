@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <!--Form Header-->
+    <header class="profile-header">
+      <h1>Personal form</h1>
+      <p><em>hello this is the basic form for the master the web forms</em></p>
+    </header>
+    <!--Form Widgets-->
+    <form action="" method="GET" class="profile-form">
+      <div class="form-row">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" />
+      </div>
+      <div class="form-row">
+        <label for="name">Email</label>
+        <input type="email" id="name" name="name" />
+      </div>
+      <!--Form Radio buttons-->
+      <fieldset class="radio-form">
+        <legend>Allow Notifications</legend>
+        <input type="radio" name="push-group" id="radio1" value="YES" checked />
+        <label for="radio1" class="radio1">YES</label>
+        <input type="radio" name="push-group" id="radio2" value="NO" />
+        <label for="radio2" class="radio2">NO</label>
+      </fieldset>
+      <!-- From Dropdown list-->
+      <div class="form-row">
+        <label for="color" name="color">Select color</label>
+        <select id="color" name="color" class="form-dropdown">
+          <option value="blue" id="color">Blue</option>
+          <option value="Green">Green</option>
+          <option value="yellow">yellow</option>
+        </select>
+      </div>
+      <!-- Form TextArea -->
+      <div class="form-row">
+        <label for="description">Description</label>
+        <textarea
+          name="description"
+          id="description"
+          cols="30"
+          rows="10"
+        ></textarea>
+      </div>
+      <!-- For CheckBox-->
+      <div class="form-row">
+        <label for="checkbox" class="checkbox-label">
+          <input type="checkbox" id="checkbox" />
+          <span>Agree to terms </span>
+        </label>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+  <script src="app.js"></script>
+  <link rel="stylesheet" href="app.css" />
+</html>
