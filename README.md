@@ -10,3 +10,9 @@ Key observations:
 * Radio-Buttons - Using fieldset with legened while using radio buttons since they works in groups and name attribute should be same for all buttons.
 * Accept-characterset- [UTF_8,ISO]
 * Always select an encoding type for your form that can handle all the character that you inteneded user to write -(theta ?)
+Input type = Hidden
+* #2. Hidden input fields may be handy if, for example, you have several forms on different pages on your website and you want to identify which page the visitor was on when they filled out the form.
+
+#3. You may want to include a timestamp of when the user submitted the form.
+
+#4. Another use of hidden inputs is to know what entry a user is editing so that you can update the correct row in the database when the user submits the form. The user doesn't need to edit (or even know) the ID of the entry, so a hidden field works well here.
